@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="354dp"
+        android:layout_height="234dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/topis_label"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:text="Choose Your Topic"
+        android:textAlignment="center"
+        android:textColor="@color/Green"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/bio_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/phy_btn"
+        android:layout_width="149dp"
+        android:layout_height="94dp"
+        android:background="@color/black"
+        android:backgroundTint="#FE1616"
+        android:onClick="phyclicked"
+        android:text="Physics"
+        app:layout_constraintBottom_toTopOf="@+id/sports_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.941" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bio_btn"
+        android:layout_width="149dp"
+        android:layout_height="94dp"
+        android:background="@color/black"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="bioclicked"
+        android:text="Biology"
+        app:layout_constraintBottom_toTopOf="@+id/chem_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/chem_btn"
+        android:layout_width="149dp"
+        android:layout_height="94dp"
+        android:background="@color/black"
+        android:backgroundTint="#FE904D"
+        android:onClick="chemclicked"
+        android:text="Chemistry"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.737" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sports_btn"
+        android:layout_width="149dp"
+        android:layout_height="94dp"
+        android:background="@color/black"
+
+        android:backgroundTint="#7ED857"
+        android:onClick="sportsclicked"
+        android:text="Sports"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.737" />
+
+    <Button
+        android:id="@+id/all_btn"
+        android:layout_width="261dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="Allclicked"
+        android:text="Rock Them All"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chem_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

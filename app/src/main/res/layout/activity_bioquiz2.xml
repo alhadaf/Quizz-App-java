@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bio">
+
+    <TextView
+        android:id="@+id/phyqn2"
+        android:layout_width="358dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="4dp"
+        android:text=" Which of these amino acids, first isolated from gelatin, is the simplest?"
+
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Banastre_Tarleton"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="40dp"
+        android:text="tryptophan "
+        android:onClick="click_try"
+        android:backgroundTint="#5CE0E5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phyqn2" />
+
+    <Button
+        android:id="@+id/Roger_Bannister"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_tyr"
+
+        android:text="tyrosine  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phyqn2" />
+
+    <Button
+        android:id="@+id/Roger_Ramjet"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="196dp"
+        android:onClick="click_gly"
+        android:backgroundTint="#5CE0E5"
+        android:text="glycine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phyqn2" />
+
+    <Button
+        android:id="@+id/Roger_Moore"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="280dp"
+        android:onClick="click_ala"
+        android:backgroundTint="#5CE0E5"
+        android:text="alanine"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phyqn2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

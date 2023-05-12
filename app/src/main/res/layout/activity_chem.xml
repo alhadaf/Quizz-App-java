@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chem">
+
+    <TextView
+        android:id="@+id/phy_qn1"
+        android:layout_width="354dp"
+        android:layout_height="123dp"
+        android:text="What is the name of an outbreak of fire without application of heat from an external source?  "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Banastre_Tarleton"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_Enthalpy"
+        android:text="Enthalpy  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phy_qn1" />
+
+    <Button
+        android:id="@+id/Roger_Bannister"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#5CE0E5"
+
+        android:onClick="click_Spontaneous_combustion"
+        android:text="Spontaneous_combustion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Banastre_Tarleton" />
+
+    <Button
+        android:id="@+id/Roger_Ramjet"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_Flash_point"
+        android:text="Flash point "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phy_qn1" />
+
+    <Button
+        android:id="@+id/Roger_Moore"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_Thermokarst"
+
+        android:text="Thermokarst "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Roger_Ramjet" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

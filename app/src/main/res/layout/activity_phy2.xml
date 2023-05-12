@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phy2"
+    >
+
+    <TextView
+        android:id="@+id/phyqn2"
+        android:layout_width="321dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="28dp"
+        android:text="Decibel is the unit used for measuring what?  "
+
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Banastre_Tarleton"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_temperature"
+        android:text="temperature"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phyqn2" />
+
+    <Button
+        android:id="@+id/Roger_Bannister"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_amplitude"
+
+        android:text="amplitude"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phyqn2" />
+
+    <Button
+        android:id="@+id/Roger_Ramjet"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_loudness"
+        android:text="loudness  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phyqn2" />
+
+    <Button
+        android:id="@+id/Roger_Moore"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_pitch"
+        android:text="pitch"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phyqn2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

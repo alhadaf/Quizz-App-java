@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chem2">
+
+    <TextView
+        android:id="@+id/sportqn1"
+        android:layout_width="319dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="4dp"
+        android:text="What is the symbol for tin?  "
+
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Banastre_Tarleton"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_Sn"
+        android:text="Sn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Roger_Ramjet" />
+
+    <Button
+        android:id="@+id/Roger_Bannister"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_Au"
+        android:text="Au"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sportqn1" />
+
+    <Button
+        android:id="@+id/Roger_Ramjet"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_Pb"
+        android:text="Pb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Roger_Moore" />
+
+    <Button
+        android:id="@+id/Roger_Moore"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_Ti"
+
+        android:text="Ti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Roger_Bannister" />
+</androidx.constraintlayout.widget.ConstraintLayout>

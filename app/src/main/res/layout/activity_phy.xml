@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phy"
+    >
+
+
+    <TextView
+        android:id="@+id/phy_qn1"
+        android:layout_width="315dp"
+        android:layout_height="142dp"
+        android:text="What is the unit of measure for cycles per second?  "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Banastre_Tarleton"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_amp"
+        android:text="ampere"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phy_qn1" />
+
+    <Button
+        android:id="@+id/Roger_Bannister"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_dec"
+
+        android:text="decibel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phy_qn1" />
+
+    <Button
+        android:id="@+id/Roger_Ramjet"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_hertz"
+        android:text="hertz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phy_qn1" />
+
+    <Button
+        android:id="@+id/Roger_Moore"
+        android:layout_width="326dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#5CE0E5"
+        android:onClick="click_ohm"
+        android:text="ohm"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phy_qn1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
